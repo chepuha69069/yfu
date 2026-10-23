@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "applefarm",
+  "version": "1.0.0",
+  "name": "Apple Farm",
+  "description": "Авто-ферма яблок/дерева. Меню: команда .apple в чате.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "applefarm.AppleFarmMod" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
